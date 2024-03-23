@@ -76,6 +76,8 @@ Once the installation is complete, you can use the `StartupComfyUI.app` to start
 
 We welcome contributions for improvements or bug fixes. Please open an issue or pull request in the repository where this script is hosted.
 
+# Star and Share  if you find it useful!
+This project is product of frustration and lots of time wasted  with setting up ComfyUI, I hope it saves some of yours.  If you find it helpful, please consider starring the repository and sharing it with others who might benefit from it, lets not waste time and start creating.
 # License
 
 This script and the associated project are distributed under GNU GENERAL PUBLIC LICENSE, which outlines the permissions, limitations, and conditions under which the project can be used.
