@@ -50,16 +50,16 @@ cd '" & thisFolderPath & "'
 echo \"=========>   Change directory\"
 cd ComfyUI
 echo \"=========>   Start ConfyUI insiade of the environment \"
-./venv/bin/python main.py
-}
-openBrowser_script() {
-echo \"=========>   Open Browser \"
+./venv/bin/python main.py &
+sleep 2
+echo \"=========>Open Browser \"
 open http://127.0.0.1:8188
 }
  
+ 
 install_homebrew
 continue_script
-openBrowser_script
+ 
 "
 
 -- Execute the shell script in Terminal

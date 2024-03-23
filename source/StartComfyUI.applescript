@@ -5,11 +5,12 @@ set thisFolderPath to POSIX path of ((thisFilePath) & "::")
 -- Prepare the shell script commands
 set shellScript to "
 cd '" & thisFolderPath & "'
-# Change directory
+echo \"=========> Change directory\"
 cd ComfyUI
-# Start ConfyUI insiade of the environment 
-./venv/bin/python main.py
-#Open Browser 
+echo \"=========> Start ConfyUI insiade of the environment \"
+./venv/bin/python main.py &
+sleep 2
+echo \"=========>Open Browser \"
 open http://127.0.0.1:8188
 "
 
