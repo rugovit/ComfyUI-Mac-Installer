@@ -70,6 +70,7 @@ Once the installation is complete, you can use the `StartupComfyUI.app` to start
 - **Permissions**: Ensure you have the necessary permissions to install software and execute scripts on your Mac.
 - **Internet Connection**: An active internet connection is required for downloading packages and cloning repositories.
 - **Script Errors**: If errors occur, refer to the Terminal output to identify and resolve issues. These could stem from network interruptions, permissions conflicts, or missing dependencies.
+- **The site can not be reached error in Browser**: Check if terminal is running the server, sometimes scripts  opens browser  before  server has started  in that case simply refresh browser page  after you make sure server is started  if not run the server using `StartupComfyUI.app` or by running `python main.py` in terminal in the project directory.
 
 # Contributing
 
