@@ -1,6 +1,12 @@
 # ComfyUI-Mac-Installer
 
-This document details the automated setup process for a macOS-based Python project environment, leveraging an AppleScript. This setup includes Homebrew and Python installations, setting up a virtual environment, and handling Git repositories. It ensures all necessary Python packages are installed and configured properly for the project to run.
+**Unlock the Magic of AI Image Generation with Ease**
+
+ComfyUI stands at the forefront of AI-driven image generation, offering unparalleled creativity at your fingertips. Yet, its full potential has often been gated behind a somewhat labyrinthine installation process — until now. Recognizing that the beauty of AI shouldn't be reserved for those fluent in macOS terminals or Python development, we present the ComfyUI-Mac-Installer.
+
+## Simplifying the Complex
+
+This project is the bridge between the innovative world of ComfyUI and enthusiasts eager to explore AI image generation without the hassle. Whether you're navigating the intricacies of macOS for the first time or you're a seasoned developer looking for a quicker setup, ComfyUI-Mac-Installer is your key to a seamless start.
 
 # How to Use
 
@@ -8,9 +14,7 @@ This document details the automated setup process for a macOS-based Python proje
 
 ## Installation
 
-The applications can be found in the `Build/Apps` folder of the ComfyUI project repository. Here’s how to download them:
-
-1. Locate the `Build/apps` folder  download both the `InstallComfyUI.app` and `ComfyUI Starter.app` to your local machine. Both apps need to be placed in the same directory to work correctly. 
+1. Download [ComfyUI-Mac-installer apps.zip](https://github.com/rugovit/ComfyUI-Mac-Installer/blob/main/ComfyUI-Mac-installer%20apps.zip)  containing  `InstallComfyUI.app` and `ComfyUI Starter.app` to your local machine and unzip. Both apps need to be placed in the same directory to work correctly. 
 2. Locate the downloaded `InstallComfyUI.app` in your Finder. Right-click on the app and select `Open` to bypass the macOS gatekeeper for the first run. 
 3. This app will open terminal and  install necessary dependencies and set up the environment for ComfyUI , after that it will automatically start ComfyUi server and  open your default browser.
 4. To  stop the server you can close the terminal window or press `Ctrl+C` in the terminal window where the server is running.
@@ -28,11 +32,6 @@ Once the installation is complete, you can use the `StartupComfyUI.app` to start
 1. Find the `StartupComfyUI.app` where you saved it(has to be in the same directory as `ComfyUI` installation folder).
 2. Right-click and select `Open` to start the app. This will launch the ComfyUI server and open the project in your default web browser automatically.
 
-# Requirements
-
-- macOS operating system
-- Internet connection
-- Terminal access
 
 # Script actions
 
