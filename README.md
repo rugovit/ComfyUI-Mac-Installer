@@ -6,28 +6,20 @@ This document details the automated setup process for a macOS-based Python proje
 
 
 
-## Downloading the Applications
+## Installation
 
 The applications can be found in the `Build/Apps` folder of the ComfyUI project repository. Here’s how to download them:
 
-1. Navigate to the GitHub page for the ComfyUIInstaller project.
-2. Locate the `Build/apps` folder.
-3. Download both the `InstallComfyUI.app` and `ComfyUI Starter.app` to your local machine.
-   
-Both apps need to be placed in the same directory to work correctly. You can place them in the same folder or on your desktop.  This  is important because InstallComfyUI.app creates `ComfyUI` installation folder  in the same directory where it is located.
-
-### ComfyUI Installer
-
-First, run the `InstallComfyUI.app`:
-
-1. Locate the downloaded `InstallComfyUI.app` in your Finder.
-2. Right-click on the app and select `Open` to bypass the macOS gatekeeper for the first run. 
-3. This app will open terminal and  install necessary dependencies and set up the environment for ComfyUI , after that it will automatically start ComfyUi server and  open browser.
+1. Locate the `Build/apps` folder  download both the `InstallComfyUI.app` and `ComfyUI Starter.app` to your local machine. Both apps need to be placed in the same directory to work correctly. 
+2. Locate the downloaded `InstallComfyUI.app` in your Finder. Right-click on the app and select `Open` to bypass the macOS gatekeeper for the first run. 
+3. This app will open terminal and  install necessary dependencies and set up the environment for ComfyUI , after that it will automatically start ComfyUi server and  open your default browser.
 4. To  stop the server you can close the terminal window or press `Ctrl+C` in the terminal window where the server is running.
 
 There’s no need to run the installer again unless you are setting up the project on a new machine or after a clean installation.
 
 **Note:** The installer may require additional permissions to install software or modify system settings. Please grant these permissions when prompted.
+
+**Note:** You can also run scripts in Build/Scripts directly using Apples Script Editor.
 
 ### StartupComfyUI
 
