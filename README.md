@@ -21,18 +21,20 @@ There’s no need to run the installer again unless you are setting up the proje
 
 **Note:** You can also run scripts in Build/Scripts directly using Apples Script Editor.
 
-### StartupComfyUI
+## StartupComfyUI
 
 Once the installation is complete, you can use the `StartupComfyUI.app` to start the server (server will be started automatically after installation, you can use this app to start the server again if it is stopped).
 
 1. Find the `StartupComfyUI.app` where you saved it(has to be in the same directory as `ComfyUI` installation folder).
 2. Right-click and select `Open` to start the app. This will launch the ComfyUI server and open the project in your default web browser automatically.
 
-## Requirements
+# Requirements
 
 - macOS operating system
 - Internet connection
 - Terminal access
+
+# Script actions
 
 ## InstallComfyUI Script actions:
 
