@@ -18,7 +18,7 @@ This project is the bridge between the innovative world of ComfyUI and enthusias
 2. Locate the downloaded `InstallComfyUI.app` in your Finder. Right-click on the app and select `Open` to bypass the macOS gatekeeper for the first run. 
 3. This app will open terminal and  install necessary dependencies and set up the environment for ComfyUI , after that it will automatically start ComfyUi server and  open your default browser.
 4. To  stop the server you can close the terminal window or press `Ctrl+C` in the terminal window where the server is running.
-5. If it helps you give this project a star!
+5. If this project has been helpful to you, consider giving it a star! Your support means the world to us.
 
 There’s no need to run the installer again unless you are setting up the project on a new machine or after a clean installation.
 
