@@ -15,16 +15,9 @@ if ! command -v brew &>/dev/null; then
      echo \"=========>   Homebrew not found. Installing Homebrew...\"
      echo \"=========>   install homebrew\"
 /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"
-    
-    echo \"=========>   Check if Homebrew installation was successful\"
-    if ! command -v brew &>/dev/null; then
-        echo \"=========>   Failed to install Homebrew. Exiting...\"
-        exit 1
-    fi
 fi
-
 echo \"=========>   Homebrew is installed.\"
-
+continue_script
 
 }
 continue_script() {
@@ -49,16 +42,27 @@ git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 cd '" & thisFolderPath & "'
 echo \"=========>   Change directory\"
 cd ComfyUI
+kill_server_on_port 8188
 echo \"=========>   Start ConfyUI insiade of the environment \"
 ./venv/bin/python main.py &
 sleep 2
 echo \"=========>Open Browser \"
 open http://127.0.0.1:8188
 }
- 
+ kill_server_on_port() {
+    echo \"=========>   Checking if a server is running on port $1...\"
+    server_pid=$(lsof -i :$1 | grep LISTEN | awk '{print $2}')
+    if [ -n \"$server_pid\" ]; then
+        echo \"=========>   Server found with PID $server_pid. Killing server...\"
+        kill -9 $server_pid
+        echo \"=========>   Server on port $1 has been killed.\"
+    else
+        echo \"=========>   No server is currently running on port $1.\"
+    fi
+}
  
 install_homebrew
-continue_script
+
  
 "
 

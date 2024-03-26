@@ -8,6 +8,18 @@ cd '" & thisFolderPath & "'
 echo \"=========> Change directory\"
 cd ComfyUI
 echo \"=========> Start ConfyUI insiade of the environment \"
+ kill_server_on_port() {
+    echo \"=========>   Checking if a server is running on port $1...\"
+    server_pid=$(lsof -i :$1 | grep LISTEN | awk '{print $2}')
+    if [ -n \"$server_pid\" ]; then
+        echo \"=========>   Server found with PID $server_pid. Killing server...\"
+        kill -9 $server_pid
+        echo \"=========>   Server on port $1 has been killed.\"
+    else
+        echo \"=========>   No server is currently running on port $1.\"
+    fi
+}
+kill_server_on_port
 ./venv/bin/python main.py &
 sleep 2
 echo \"=========>Open Browser \"
