@@ -5,6 +5,8 @@ set thisFolderPath to POSIX path of ((thisFilePath) & "::")
 -- Prepare the shell script commands
 set shellScript to "
 cd '" & thisFolderPath & "'
+
+echo \"===========================> StartComfyUI  v.0.9.0  <===========================\"
 echo \"=========> Change directory\"
 cd ComfyUI
 echo \"=========> Start ConfyUI insiade of the environment \"
