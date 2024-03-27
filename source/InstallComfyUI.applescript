@@ -60,7 +60,7 @@ open http://127.0.0.1:8188
         echo \"=========>   No server is currently running on port $1.\"
     fi
 }
-echo \"===========================> InstallComfyUI  v.0.9.0  <===========================\"
+echo \"===========================> InstallComfyUI  v.1.0.0  <===========================\"
 install_homebrew
 
  
