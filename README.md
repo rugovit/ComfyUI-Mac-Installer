@@ -26,6 +26,10 @@ There’s no need to run the installer again unless you are setting up the proje
 
 **Note:** You can also run scripts in Build/Scripts directly using Apples Script Editor.
 
+After sucesfull instalation your screen  should have  new `ComfyUI` folder at the same level as `InstallComfyUI.app`  terminal opened with  log line `To see the GUI go to: http://127.0.0.1:8188`  and browser opned to `http://127.0.0.1:8188/` like in the picture below : 
+
+
+   ![image](https://github.com/rugovit/ComfyUI-Mac-Installer/assets/12918391/d15461c4-fdda-4c07-bb17-1d64a7e2c046)
 ## StartupComfyUI
 
 Once the installation is complete, you can use the `StartupComfyUI.app` to start the server (server will be started automatically after installation, you can use this app to start the server again if it is stopped).
