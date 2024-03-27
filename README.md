@@ -17,14 +17,14 @@ This project is the bridge between the innovative world of ComfyUI and enthusias
 1. Download [ComfyUI-Mac-installer apps.zip](https://github.com/rugovit/ComfyUI-Mac-Installer/blob/main/ComfyUI-Mac-installer%20apps.zip)  containing  `InstallComfyUI.app` and `ComfyUI Starter.app` to your local machine and unzip. Both apps need to be placed in the same directory to work correctly. 
 2. Locate the downloaded `InstallComfyUI.app` in your Finder. Right-click on the app and select `Open` to bypass the macOS gatekeeper for the first run. 
 3. This app will open terminal and  install necessary dependencies and set up the environment for ComfyUI , after that it will automatically start ComfyUi server and  open your default browser(sometimes you will have to refresh browser).
-4. To  stop the server you can close the terminal window or press `Ctrl+C` in the terminal window where the server is running.
-5. If this project has been helpful to you, consider giving it a star! Your support means the world to us.
 
-There’s no need to run the installer again unless you are setting up the project on a new machine or after a clean installation.
+**Notes:**
+* To  stop the server you can close the terminal window or press `Ctrl+C` in the terminal window where the server is running.
 
-**Note:** The installer may require additional permissions to install software or modify system settings. Please grant these permissions when prompted.
+* There’s no need to run the installer again unless you are setting up the project on a new machine or after a clean installation.
 
-**Note:** You can also run scripts in Build/Scripts directly using Apples Script Editor.
+* The installer may require additional permissions to install software or modify system settings. Please grant these permissions when prompted.
+
 
 After sucesfull instalation your screen  should have  new `ComfyUI` folder at the same level as `InstallComfyUI.app`  terminal opened with  log line `To see the GUI go to: http://127.0.0.1:8188`  and browser opned to `http://127.0.0.1:8188/` like in the picture below : 
 
