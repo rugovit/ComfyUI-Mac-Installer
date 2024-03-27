@@ -33,7 +33,19 @@ Once the installation is complete, you can use the `StartupComfyUI.app` to start
 1. Find the `StartupComfyUI.app` where you saved it(has to be in the same directory as `ComfyUI` installation folder).
 2. Right-click and select `Open` to start the app. This will launch the ComfyUI server and open the project in your default web browser automatically.
 
+# Tested Devices
 
+To ensure compatibility and performance, the ComfyUI-Mac-Installer has been  tested on a variety of devices. Below is a list of devices we've confirmed the installer works smoothly on:
+
+- **MacBook Pro (16-inch, 2019)**
+    - **Processor:** 2.3 GHz 8-Core Intel Core i9
+    - **Memory:** 16 GB
+- **MacBook Pro M3 Max (16-inch, Nov 2023)**
+    - **Processor:** M3 Max
+    - **Memory:** 48 GB
+- **MacBook Pro M1 (13-inch, 2021)**
+    - **Processor:** M1 Pro
+    - **Memory:** 16 GB
 # Script actions
 
 ## InstallComfyUI Script actions:
