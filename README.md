@@ -26,7 +26,7 @@ This project is the bridge between the innovative world of ComfyUI and enthusias
 * The installer may require additional permissions to install software or modify system settings. Please grant these permissions when prompted.
 
 
-After sucesfull instalation your screen  should have  new `ComfyUI` folder at the same level as `InstallComfyUI.app`  terminal opened with  log line `To see the GUI go to: http://127.0.0.1:8188`  and browser opned to `http://127.0.0.1:8188/` like in the picture below : 
+After sucesfull instalation your screen  should have  new `ComfyUI` folder at the same level as `InstallComfyUI.app`  terminal opened with  log line `To see the GUI go to: http://127.0.0.1:8188`  and browser opened to [http://127.0.0.1:8188](http://127.0.0.1:8188) like in the picture below : 
 
 
    ![image](https://github.com/rugovit/ComfyUI-Mac-Installer/assets/12918391/d15461c4-fdda-4c07-bb17-1d64a7e2c046)
@@ -69,7 +69,7 @@ To ensure compatibility and performance, the ComfyUI-Mac-Installer has been  tes
 2. **Converts the file path to a POSIX path**, which is compatible with macOS Terminal commands.
 3. **Navigates to the ComfyUI project directory** within the Terminal.
 4. **Starts the ComfyUI application** inside the activated Python virtual environment.
-5. **Opens your default web browser** to `http://127.0.0.1:8188`, where the ComfyUI interface can be accessed.
+5. **Opens your default web browser** to [http://127.0.0.1:8188](http://127.0.0.1:8188), where the ComfyUI interface can be accessed.
 
  
 
@@ -82,12 +82,14 @@ To ensure compatibility and performance, the ComfyUI-Mac-Installer has been  tes
 - **Script Errors**: If errors occur, refer to the Terminal output to identify and resolve issues. These could stem from network interruptions, permissions conflicts, or missing dependencies.
 - **The site can not be reached error in Browser**: Check if terminal is running the server, sometimes scripts  opens browser  before  server has started  in that case simply refresh browser page  after you make sure server is started  if not run the server using `StartupComfyUI.app` or by running `python main.py` in terminal in the project directory.
 
+# Star and Share  if you find it useful!
+This project is product of frustration and lots of time wasted  with setting up ComfyUI, I hope it saves some of yours.  If you find it helpful, please consider starring the repository and sharing it with others who might benefit from it, lets not waste time and start creating.
+
 # Contributing
 
 We welcome contributions for improvements or bug fixes. Please open an issue or pull request in the repository where this script is hosted.
 
-# Star and Share  if you find it useful!
-This project is product of frustration and lots of time wasted  with setting up ComfyUI, I hope it saves some of yours.  If you find it helpful, please consider starring the repository and sharing it with others who might benefit from it, lets not waste time and start creating.
+
 # License
 
 This script and the associated project are distributed under GNU GENERAL PUBLIC LICENSE, which outlines the permissions, limitations, and conditions under which the project can be used.
